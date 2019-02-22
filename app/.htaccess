@@ -1,0 +1,15 @@
+Options -Indexes
+
+RewriteEngine On
+
+Order Allow,Deny
+Deny from all
+
+#ErrorDocument 403 https://thedomain.com/
+#ErrorDocument 404 https://thedomain.com/
+
+
+
+
+ErrorDocument 403 http://localhost/mvc/public/
+ 

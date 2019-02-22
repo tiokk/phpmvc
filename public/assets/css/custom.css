@@ -1,0 +1,153 @@
+ /* @import font */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('../iconfont/Material Icons'),
+    local('../iconfont/MaterialIcons-Regular'),
+    url(../iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+    url(../iconfont/MaterialIcons-Regular.woff) format('woff'),
+    url(../iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* @import font */
+
+.file-uploader .input-group input,
+.file-uploader .input-group-btn .button {
+  height: 35px;
+}
+.file-uploader .input-group .input-group-addon {
+  padding: 2px 15px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1;
+  color: #337ab7;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #d6d9e2;
+  border-radius: 0;
+}
+.file
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width:100%;
+  height:100%;
+}
+
+
+.modal { overflow: auto !important; }
+.modal-backdrop
+{
+    opacity:0.6 !important;
+}
+ 
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: rgba(0, 0, 0, 0.6);
+ 	-webkit-animation: fadeinout 4s linear forwards;
+	animation: fadeinout 4s linear forwards;
+}
+.custom_alert {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+ 
+	
+}
+.center-alert {
+	fade-in:slower;
+	fade-out:slower;
+	top:5px;
+	left: 30%;
+ 	justify-content: center;
+	align-items: center;
+	text-align: center;
+	max-width:40%;
+ }
+.center-screen {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+}
+.load{
+	opacity: .7;
+
+}
+
+.custom_file {
+  margin: auto;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.labelfrm {
+    display:block;
+    font-size:small;
+ 	padding: 9px;
+}
+.error {
+    font-size:small;
+    color:red;
+}
+
+
+body, wrapper {
+   min-height:100vh;
+}
+
+.flex-fill {
+   flex:1 1 auto;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 20px;
+  line-height: 20px; /* Vertically center the text there */
+  background-color:rgba(136, 136, 136, 0.35);
+}
+
+ 
